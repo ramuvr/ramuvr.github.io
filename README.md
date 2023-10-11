@@ -24,16 +24,16 @@ Thank you for joining me on this Azure journey. Let's make Azure work for you!
 
 | Sl. | Page                                |
 | --- | ----------------------------------- |
-| 1   | [KQL to query Firewall Logs](.\kql-firewall.md) |
+| 1   | [KQL to query Firewall Logs](https://ramuvr.github.io/kql-firewall.md) |
 | 2   | Coming Soon                         |
 
 ## Get in Touch
 
 If you have any questions or need further assistance, don't hesitate to get in touch with me. Here are the ways to contact me:
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **Twitter**: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
-- **LinkedIn**: [Your Name](https://www.linkedin.com/in/your-name/)
-- **GitHub**: [Your GitHub Profile](https://github.com/your-github-username)
+- **Email**: [ramuvr@outlook.com](mailto:ramuvr@outlook.com)
+- **Mastondon**: [@t93ht6enw](https://infosec.exchange/@t93ht6enw)
+- **LinkedIn**: [Ramu Venkitaramanan](https://www.linkedin.com/in/ramuvr/)
+- **GitHub**: [ramuvr](https://github.com/ramuvr)
 
 Feel free to reach out through any of these channels, and I'll be happy to assist you.
