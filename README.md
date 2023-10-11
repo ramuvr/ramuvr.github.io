@@ -24,7 +24,7 @@ Thank you for joining me on this Azure journey. Let's make Azure work for you!
 
 | Sl. | Page                                |
 | --- | ----------------------------------- |
-| 1   | [KQL to query Firewall Logs](https://ramuvr.github.io/kql-firewall.md) |
+| 1   | [KQL to query Firewall Logs](https://ramuvr.github.io/kql-firewall) |
 | 2   | Coming Soon                         |
 
 ## Get in Touch
