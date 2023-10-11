@@ -20,6 +20,20 @@ Feel free to explore, learn, and reach out if you have any questions or specific
 
 Thank you for joining me on this Azure journey. Let's make Azure work for you!
 
-## Index
+## Index of Topics
 
+| Sl. | Page                                |
+| --- | ----------------------------------- |
+| 1   | [KQL to query Firewall Logs](.\kql-firewall.md) |
+| 2   | Coming Soon                         |
 
+## Get in Touch
+
+If you have any questions or need further assistance, don't hesitate to get in touch with me. Here are the ways to contact me:
+
+- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Twitter**: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
+- **LinkedIn**: [Your Name](https://www.linkedin.com/in/your-name/)
+- **GitHub**: [Your GitHub Profile](https://github.com/your-github-username)
+
+Feel free to reach out through any of these channels, and I'll be happy to assist you.
