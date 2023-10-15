@@ -25,7 +25,8 @@ Thank you for joining me on this Azure journey. Let's make Azure work for you!
 | Sl. | Page                                |
 | --- | ----------------------------------- |
 | 1   | [KQL query for Azure Firewall Logs](https://ramuvr.github.io/kql-firewall) |
-| 2   | Coming Soon                         |
+| 2   | [Using AzCopy to Sync Files to Azure Blob Storage](https://ramuvr.github.io/azcopy-sync)                         |
+| 3   | [Coming Soon]                         |
 
 ## Get in Touch
 
