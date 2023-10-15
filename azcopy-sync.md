@@ -125,7 +125,7 @@ You may further restrain permitted actions on the storage, but using [Azure attr
 
 The PowerShell SecretManagement module offers a user-friendly method for securely storing and retrieving sensitive information. These secrets are safeguarded within SecretManagement extension vaults, which are essentially PowerShell modules registered with SecretManagement. These extension vaults expose the five necessary module functions for SecretManagement. Secrets can be stored either locally or remotely within an extension vault. It's important to note that extension vaults are associated with the current user's context upon registration, ensuring they remain exclusively accessible to that specific user. SecretStore is the Local secure store extension vault for Microsoft.PowerShell. SecretManagement module.
 
-The first time you access the vault you must provide a password for the new vault. This password is used to lock and unlock the vault.<sup id="fnref:1">[1]</sup>. The password is stored in a file on the local machine. The file is encrypted using the Windows Data Protection API (DPAPI) and can only be decrypted by the user who created the vault. The password is not stored in the registry or in a file that is accessible to other users.
+The first time you access the vault you must provide a password for the new vault. This password is used to lock and unlock the vault <sup>1</sup>. The password is stored in a file on the local machine. The file is encrypted using the Windows Data Protection API (DPAPI) and can only be decrypted by the user who created the vault. The password is not stored in the registry or in a file that is accessible to other users.
 
 ```powershell
     # Secret Management
@@ -181,7 +181,8 @@ The first time you access the vault you must provide a password for the new vaul
     Set-Secret -Vault $Vault.Name -Name "StorageSPN" -Secret $SPNDetails
 ```
 <!-- markdownlint-disable MD033 -->
-[1]:<a href="#fn:1"> Note the master password to your vault securely. If you lose the master password, you will not be able to retrieve the secrets stored in the vault.</a>
+
+<sup>1</sup> : Note the master password to your vault securely. If you lose the master password, you will not be able to retrieve the secrets stored in the vault.
 
 Find a copy of the above script [here](./azcopy-sync-scripts/secrets.ps1)
 
