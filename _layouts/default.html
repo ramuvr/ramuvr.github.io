@@ -1,51 +1,54 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-<head>
-  <meta charset="UTF-8">
-  <title>Azure Snippets</title> <!-- Page title -->
-  <link rel="icon" type="image/x-icon" href="/.images/favicon.ico">
-  {% seo %} <!-- Search engine optimization tags -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive design meta tag -->
-  <meta name="theme-color" content="#157878"> <!-- Theme color for mobile browsers -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> <!-- Status bar style for iOS -->
-  <link rel="stylesheet" href="{{'/assets/css/style.css?v=' | append: site.github.build_revision | relative_url}}"> <!-- Link to main stylesheet -->
-
-  {% include head-custom.html %} <!-- Custom head content -->
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Azure Snippets</title>
+    <!-- Page title -->
+    <link rel="icon" type="image/x-icon" href="/.images/favicon.ico"> {% seo %}
+    <!-- Search engine optimization tags -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=yes">
+    <!-- Responsive design meta tag -->
+    <meta name="theme-color" content="#157878">
+    <!-- Theme color for mobile browsers -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Status bar style for iOS -->
+    <link rel="stylesheet" href="{{'/assets/css/style.css?v=' | append: site.github.build_revision | relative_url}}">
+    <!-- Link to main stylesheet --> {% include head-custom.html %}
+    <!-- Custom head content -->
+  </head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BC38MDLP6H"></script> <!-- Google Analytics script -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BC38MDLP6H"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  
-  gtag('config', 'G-BC38MDLP6H'); <!-- Google Analytics configuration -->
-</script>
-<body>
-  <a id="skip-to-content" href="#content">Skip to the content.</a> <!-- Skip link for accessibility -->
-  <header class="page-header" role="banner">
-    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1> <!-- Site title -->
-    <b>></b>
-    <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2> <!-- Site description -->
-    {% if site.github.is_project_page %}
-    <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a> <!-- Link to GitHub repository -->
-    {% endif %}
-    <!-- {% if site.show_downloads %}
-      <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-      <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %} -->
-  </header>
-  <main id="content" class="main-content" role="main">
-    {{ content }} <!-- Main content of the page -->
-    <footer class="site-footer">
-      {% if site.github.is_project_page %}
-      <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span> <!-- GitHub repository owner information -->
-      {% endif %}
-      <span class="site-footer-credits">Go to my<a href="https://ramuvr.github.io"> GitHub Home Page</a>.</span> <!-- Link to GitHub home page -->
-    </footer>
-  </main>
-</body>
-</html>
 
+  gtag('config', 'G-BC38MDLP6H');
+</script>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+    <!-- Skip link for accessibility -->
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <!-- Site title -->
+      <b>></b>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      <!-- Site description --> {% if site.github.is_project_page %} <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      <!-- Link to GitHub repository --> {% endif %}
+      <!-- {% if site.show_downloads %}
+      <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a><a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %} -->
+    </header>
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+      <!-- Main content of the page -->
+      <footer class="site-footer"> {% if site.github.is_project_page %} <span class="site-footer-owner">
+          <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>. </span>
+        <!-- GitHub repository owner information --> {% endif %} <span class="site-footer-credits">Go to my <a href="https://ramuvr.github.io"> GitHub Home Page</a>. </span>
+        <!-- Link to GitHub home page -->
+      </footer>
+    </main>
+  </body>
+</html>
