@@ -66,7 +66,7 @@ Generating dummy data for testing and development is a common need in the world 
 
 ## Download
 
-You can download a copy of the script from my [GitHub](https://github.com/) repository [here](./generate-dummy-data/)
+You can download a copy of the script from my [GitHub](https://github.com/) repository [here](https://github.com/ramuvr/ramuvr.github.io/blob/main/generate-dummy-data/)
 
 <meta http-equiv="refresh" content="0" url="http://ramuvr.github.io/generate-dummy-data/work.html" />
 
