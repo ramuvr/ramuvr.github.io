@@ -56,9 +56,10 @@ The heart of this script is the New-RandomFile function, which uses PowerShell's
 
 This code creates random data by generating GUIDs, combining them, and setting the content of a file with this data. You can easily adjust the logic to create data in different formats or customize the content generation process.
 
-<a id="note1" href="#note1ref"><sup>1</sup></a> See it in action <div style="float:left;margin:0 100px 100px 20" markdown="1">![GIF](generate-dummy-images/Generate%20Dummy%20Data.gif)
-</div>
+<a id="note1" href="#note1ref"><sup>1</sup></a> See it in action here:
+<img src="https://azure.rvr.cloud/generate-dummy-images/Generate%20Dummy%20Data.gif" width="2048">
 <!-- markdownlint-enable MD033 -->
+
 ## Summary
 
 Generating dummy data for testing and development is a common need in the world of cloud engineering and system administration. The New-RandomFile PowerShell script simplifies this task by providing an easy way to generate random data files with specific characteristics. Whether you're testing storage solutions, backup processes, or any other system that requires data, this script can save you time and effort. It's a powerful tool in the arsenal of any IT professional looking to streamline their testing processes and ensure their systems are robust and reliable. The ability to automate data generation with New-RandomFile is a clear example of how PowerShell can make routine tasks more manageable and efficient in the realm of technology and systems administration.
