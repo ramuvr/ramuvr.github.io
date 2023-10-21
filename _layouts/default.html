@@ -10,7 +10,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive design meta tag -->
   <meta name="theme-color" content="#157878"> <!-- Theme color for mobile browsers -->
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> <!-- Status bar style for iOS -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> <!-- Link to main stylesheet -->
+  <link rel="stylesheet" href="{{'/assets/css/style.css?v=' | append: site.github.build_revision | relative_url}}"> <!-- Link to main stylesheet -->
+
   {% include head-custom.html %} <!-- Custom head content -->
 </head>
 <!-- Google tag (gtag.js) -->
@@ -46,7 +47,5 @@
     </footer>
   </main>
 </body>
-</html>.main-content {max-width: 1200px; /* Change this value to increase or decrease the width of the page */
-  margin: 0 auto;
-  padding: 0 20px;}
+</html>
 
