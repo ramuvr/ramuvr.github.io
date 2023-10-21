@@ -56,8 +56,8 @@ The heart of this script is the New-RandomFile function, which uses PowerShell's
 
 This code creates random data by generating GUIDs, combining them, and setting the content of a file with this data. You can easily adjust the logic to create data in different formats or customize the content generation process.
 
-<a id="note1" href="#note1ref"><sup>1</sup></a> See it in action ![GIF](generate-dummy-images/Generate%20Dummy%20Data.gif)
-
+<a id="note1" href="#note1ref"><sup>1</sup></a> See it in action <div style="float:left;margin:0 100px 100px 20" markdown="1">![GIF](generate-dummy-images/Generate%20Dummy%20Data.gif)
+</div>
 <!-- markdownlint-enable MD033 -->
 ## Summary
 

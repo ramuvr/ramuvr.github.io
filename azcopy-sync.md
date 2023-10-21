@@ -162,7 +162,6 @@ The first time you access the vault you must provide a password for the new vaul
 
     $password = Import-CliXml -Path $securePasswordPath
     Unlock-SecretStore -Password $password
-    # Create secrets to store SPN details for AzCopy
 
     # Define the SPN client ID and secret
     $SPNClientId = "{GUID}"
