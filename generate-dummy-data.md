@@ -68,8 +68,6 @@ Generating dummy data for testing and development is a common need in the world 
 
 You can download a copy of the script from my [GitHub](https://github.com/) repository [here](https://github.com/ramuvr/ramuvr.github.io/blob/main/generate-dummy-data/)
 
-<meta http-equiv="refresh" content="0" url="http://ramuvr.github.io/generate-dummy-data/work.html" />
-
 ## References
 
 - Read more on `Set-Content` [here](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-content?view=powershell-7.3)
