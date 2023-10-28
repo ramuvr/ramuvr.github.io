@@ -10,7 +10,7 @@
     <meta property="og:description" content="{{ page.description }}">
     <meta property="og:url" content="{{ page.url | absolute_url }}">
     <link rel="icon" type="image/x-icon" href="/.images/favicon.ico"> {% seo %}
-     <!-- Open Graph tags -->
+    <!-- Open Graph tags -->
     <!-- Search engine optimization tags -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
@@ -24,15 +24,17 @@
     <!-- Link to main stylesheet --> {% include head-custom.html %}
     <!-- Custom head content -->
   </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BC38MDLP6H"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BC38MDLP6H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-BC38MDLP6H');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-BC38MDLP6H');
+  </script>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <!-- Skip link for accessibility -->
@@ -56,5 +58,20 @@
         <!-- Link to GitHub home page -->
       </footer>
     </main>
+    <!-- Default Statcounter code for Github Page https://azure.rvr.cloud -->
+    <script type="text/javascript">
+      var sc_project = 12935218;
+      var sc_invisible = 1;
+      var sc_security = "70429d79";
+    </script>
+    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+    <noscript>
+      <div class="statcounter">
+        <a title="web stats" href="https://statcounter.com/" target="_blank">
+          <img class="statcounter" src="https://c.statcounter.com/12935218/0/70429d79/1/" alt="web stats" referrerPolicy="no-referrer-when-downgrade">
+        </a>
+      </div>
+    </noscript>
+    <!-- End of Statcounter Code -->
   </body>
 </html>
