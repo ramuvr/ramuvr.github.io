@@ -27,7 +27,8 @@ Thank you for joining me on this Azure journey. Let's make Azure work for you!
 | 1   | [KQL query for Azure Firewall Logs](https://ramuvr.github.io/kql-firewall)               |
 | 2   | [Using AzCopy to Sync Files to Azure Blob Storage](https://ramuvr.github.io/azcopy-sync) |
 | 3   | [Generate Dummy Data](https://ramuvr.github.io/generate-dummy-data)                      |
-| 4   | [Coming Soon]                                                                            |
+| 4   | [Run Azure Quick Review as Azure DevOps Pipeline](https://ramu.github.io/azure-quick-review) |
+| 5   | [Coming Soon]                                                                            |
 
 ## Get in Touch
 
